@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faqejud.css">
+    <title>FAQ</title>
+    <h1 class="faq-ejud">FAQ EJUD</h1>
+</head>
+<body>
+
+<div class="faq-section">
+    <div class="faq-item">
+        <div class="faq-question">
+            <span><strong>1.</strong> “Nome de usuário ou senha incorretos”, como resolver?</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="faq-answer">
+            <p>Se você é servidor do TJAM e está enfrentando dificuldades para acessar o AVA EJUD (Moodle) e recebe a mensagem "Nome de usuário ou senha incorretos", mesmo que sua senha de Rede do TJAM esteja funcionando, isso pode ser devido à expiração da sua senha de Rede.</p>
+            <p><strong>Orientações para resolver o problema presencialmente:</strong></p>
+            <p>1. O procedimento pode ser realizado em qualquer computador conectado à rede interna do Tribunal de Justiça do Amazonas, porém, recomendamos que seja realizado na Unidade de Lotação do usuário.</p>
+            <p>2. Ao logar numa estação conectada à rede interna TJAM, pressione <strong>Ctrl + Alt + Del</strong> no seu computador.</p>
+            <p>3. Selecione "Alterar uma senha" e defina uma nova senha de Rede.</p>
+            <p>4. Após a redefinição para a nova senha, esta poderá levar algum tempo (cerca de 30 minutos) para ser atualizada na rede interna. Após esse tempo, atualize a página do AVA EJUD e use a nova senha para fazer login na plataforma.</p>
+            <br>
+            <p><strong>Orientações para resolver o problema online:</strong></p>
+            <p>1. Será possível fazer a redefinição através do site: <a href="https://senha.tjam.jus.br/" target="_blank">https://senha.tjam.jus.br/</a><p>
+            <p>2. Informe seu usuário de rede e senha antiga, logo após adicione a nova senha.<p>
+            <p>3. Após a redefinição para a nova senha, esta poderá levar algum tempo (cerca de 30 minutos) para ser atualizada na rede interna. Após esse tempo, atualize a página do AVA EJUD e use a nova senha para fazer login na plataforma.</p>
+            <br>
+            <p><strong>Importância da Conexão da Senha de Rede com o AVA:</strong> Manter sua senha de rede atualizada e sincronizada com o AVA EJUD é essencial para garantir a segurança e a integridade do seu acesso. Essa integração permite um gerenciamento centralizado e eficiente das suas credenciais, proporcionando uma experência de login mais segura e simplificada.</p>
+            <br>
+            <p><strong>Lembre-se:</strong> Para os membros do TJAM, a opção "Esqueceu o seu usuário ou senha?" do AVA EJUD não funcionará corretamente devido à integração com o sistema LDAP. Por isso, é essencial que a troca de senha seja realizada conforme descrito acima.</p>
+            <br>
+            <p><strong>Importante:</strong></p>
+            <p>Ao trocar sua senha de rede do TJAM pelos métodos descritos acima, a nova senha será automaticamente atualizada em todos os sistemas que utilizam o  login e senha de rede do TJAM. Isso inclui o AVA EJUD e outros sistemas integrados, garantindo uma experiência de login simplificada e segura.</p>
+            <br>  
+            <p>Caso continue encontrando dificuldades ou precise de assistência adicional, entre em contato com a Equipe de Suporte da Escola Judicial pelo e-mail <strong>ejud@tjam.jus.br</strong> ou pelo canal de WhatsApp <strong>(92) 2129-6633</strong>.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <span><strong>2.</strong> Tentei entrar no AVA EJUD e recebi um erro com a mensagem "Você não pode continuar sem mudar a senha. Mas infelizmente não existe uma página para esse propósito. Por favor, contate o Administrador Moodle", como resolver?</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="faq-answer">
+            <p>Se você está recebendo a mensagem descrita acima, ao tentar acessar o AVA EJUD, isso indica que você é um usuário autenticado via LDAP e está enfrentando um problema devido à configuração da opção "forçar mudança de senha".</p>
+            <br>
+            <p><strong>Por que isso acontece?</strong></p>
+            <p>Devido a um erro, a opção "forçar mudança de senha" foi ativada para alguns usuários. No entanto, usuários autenticados via LDAP não conseguem alterar suas senhas diretamente pelo Moodle. Como resultado, o sistema tenta forçar uma mudança de senha, gerando um conflito e exibindo a mensagem de erro.</p>
+            <br>
+            <p><strong>O que devo fazer?</strong></p>
+            <p>Entre em contato com a Equipe de Suporte da Escola Judicial (EJUD) para que o administrador do site possa ajustar as configurações do seu perfil. Você pode contatar a equipe pelo e-mail <strong>ejud@tjam.jus.br</strong> ou pelo canal de WhatsApp <strong>(92) 2129-6633</strong>.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <span><strong>3.</strong> Tentei alterar a senha do AVA EJUD e recebi a mensagem “Alguém (provavelmente você) solicitou uma nova senha para sua conta em 'Ambiente Virtual de Aprendizagem da EJUD'. Infelizmente as senhas não podem ser modificadas neste site, por favor, contate o administrador”, como resolver?</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="faq-answer">
+            <p>Se você tentou alterar sua senha no AVA EJUD (Moodle) e recebeu a mensagem descrita acima, isso indica que você é um servidor TJAM autenticado via LDAP.</p>
+            <p>Devido à integração do sistema AVA EJUD com o LDAP, a opção "Esqueceu o seu usuário ou senha" não funcionará corretamente para a recuperação de senhas. Essa integração é projetada para manter a segurança e a integridade das credenciais de acesso.</p>
+            <p>Para solucionar esse problema, entre em contato com o suporte ao AVA EJUD pelo WhatsApp <strong>(92) 2129-6633</strong> para assistência na redefinição da senha. Informe o erro exato que está recebendo para que o suporte possa solucionar o problema mais rapidamente.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <span><strong>4.</strong> O que é o método de autenticação LDAP?</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="faq-answer">
+            <p>LDAP (Lightweight Directory Access Protocol) é um protocolo utilizado para acessar e manter serviços de diretórios distribuídos através de uma rede. Ele fornece uma maneira segura e centralizada de gerenciar autenticações e autorizações em sistemas e aplicações.</p>
+            <br>
+            <p><strong>Como funciona a autenticação LDAP no AVA EJUD?</strong></p>
+                
+            <p><strong>1. Centralização das Credenciais:</strong></p>
+            <p>As credenciais dos usuários (nome de usuário e senha) são armazenadas em um servidor LDAP centralizado, integrado ao servidor de diretório do TJAM.</p>
+            <br>  
+            <p><strong>2. Processo de Login:</strong></p>
+            <p>Quando um usuário (servidor do TJAM) tenta fazer login no AVA EJUD (Moodle), suas credenciais são enviadas para o servidor LDAP do TJAM.</p>
+            <p>O servidor LDAP verifica se as credenciais são válidas, comparando-as com as informações armazenadas no diretório.</p>
+            <br>    
+            <p><strong>3. Criação de Conta Automática:</strong></p>
+            <p>Os servidores do TJAM podem criar uma conta no AVA EJUD usando suas credenciais de rede do TJAM. Ao colocar o login e a senha de rede na seção de login da plataforma, um cadastro é criado automaticamente com esses dados e autenticado via LDAP.</p>
+            <br>  
+            <p><strong>4. Sincronização de Senhas:</strong></p>
+            <p>Por estar interligado com a rede TJAM, quando a senha de rede é trocada, a senha no AVA EJUD também é alterada. Isso garante que os usuários usem sempre as mesmas credenciais para acessar múltiplos sistemas.</p>
+            <br>  
+            <p><strong>Relevância para o AVA EJUD:</strong></p>
+            <p>No contexto do AVA EJUD, a autenticação via LDAP significa que as senhas e permissões de acesso dos servidores do TJAM são gerenciadas pelo servidor LDAP do TJAM. Isso garante que os usuários possam acessar o AVA EJUD com as mesmas credenciais usadas para outros sistemas da organização, proporcionando uma experiência de login integrada e segura.</p>
+            <p>Se você tiver problemas com a autenticação LDAP no AVA EJUD, como não conseguir alterar sua senha diretamente no Moodle, é importante seguir as instruções específicas para servidores do TJAM, conforme descrito em outras partes do FAQ.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <span><strong>5.</strong> Como obter 2ª Via do Certificado dos cursos oferecidos pelo AVA EJUD?</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="faq-answer">
+            <p>A Escola Judicial (EJUD) oferece um formulário específico para os certificados, com as seguintes finalidades:</p>
+            <p><strong>1. Validação de Certificado:</strong> Destinado àqueles que obtiveram certificados através do AVA EJUD.</p>
+            <p><strong>2. Consulta de certificados:</strong> Permine a verificação de certificados emitidos pelo EMERON WEB.</p>
+            <p><strong>3. Solicitação de 2ª. Via de certificados:</strong> Aplicável aos cursos realizados no AVA EJUD</p>
+            <br>
+            <p>O formulário está disponível na Página Inicial do AVA EJUD, na seção "VERIFICAÇÃO E 2ª VIA DE CERTIFICADO", ou acessível <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-GxbJsfm8o3ttMHQQJYveY3Bgqn3flHrA0HMCn2E2gYX6aQ/viewform" target="_blank">clicando aqui</a>.</p>
+            <p><strong>IMPORTANTE:</strong> Este formulário deve ser utilizado exclusivamente nos casos em que o usuário não consiga emitir o certificado diretamente no AVA, seja por eventuais erros no sistema, dificuldades na localização do curso, ou na hipótese de o curso não estar mais disponível na plataforma (curso antigo ou de plataforma anterior).</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="faqejud.js"></script>
+
+</body>
+</html>
